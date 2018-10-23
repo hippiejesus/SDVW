@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>975</width>
+    <height>482</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>URW Bookman L</family>
+    <pointsize>16</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>951</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Gothic L</family>
+     </font>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Open Bags</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="listOpenTotes">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Daily Runs</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="listDailyRuns">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>975</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Sans</family>
+     <pointsize>10</pointsize>
+     <italic>false</italic>
+    </font>
+   </property>
+   <widget class="QMenu" name="menuRun">
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Run</string>
+    </property>
+    <addaction name="startRun"/>
+    <addaction name="actionRemove_Selected"/>
+   </widget>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSave"/>
+    <addaction name="quit_button"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuRun"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="newBag">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionFinish">
+   <property name="text">
+    <string>Finish</string>
+   </property>
+  </action>
+  <action name="reviewLogs">
+   <property name="text">
+    <string>ReviewCalendar</string>
+   </property>
+  </action>
+  <action name="mainMenu">
+   <property name="text">
+    <string>MainMenu</string>
+   </property>
+  </action>
+  <action name="startRun">
+   <property name="text">
+    <string>Start From Selected</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="quit_button">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+  <action name="actionRemove_Selected">
+   <property name="text">
+    <string>Remove Selected</string>
+   </property>
+  </action>
+  <action name="actionCustomer_Relations">
+   <property name="text">
+    <string>Customer Relations</string>
+   </property>
+  </action>
+  <action name="actionIntake">
+   <property name="text">
+    <string>Intake</string>
+   </property>
+  </action>
+  <action name="actionFinishing">
+   <property name="text">
+    <string>Finishing</string>
+   </property>
+  </action>
+  <action name="actionYield">
+   <property name="text">
+    <string>Yield</string>
+   </property>
+  </action>
+  <action name="actionProduct_Management">
+   <property name="text">
+    <string>Product Management</string>
+   </property>
+  </action>
+  <action name="actionPackaging">
+   <property name="text">
+    <string>Packaging</string>
+   </property>
+  </action>
+  <action name="actionDistillate">
+   <property name="text">
+    <string>Distillate</string>
+   </property>
+  </action>
+  <action name="actionPOS">
+   <property name="text">
+    <string>POS</string>
+   </property>
+  </action>
+  <action name="actionPage_Switch_On_Off">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Page Switch On/Off</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

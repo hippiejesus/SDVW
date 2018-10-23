@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1017</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget_11">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1001</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Gothic L</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_12">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="labelCrum">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Crumble
+Bulk</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listCrumBulk">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_11">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Crude
+Bulk</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listCrudeBulk"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="labelLive">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Sauce
+Bulk</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listLiveBulk">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="labelCry">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Crystals
+Bulk</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listCryBulk">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="labelDisto">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Distolate
+Bulk</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listDistoBulk">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QLabel" name="labelRsopt">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>RSO/PT 
+Bulk</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listRsoptBulk">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QLabel" name="labelCrumUnit">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Crumble
+Units</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listCrumUnit">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_13">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>Crude
+Units</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listCrudeUnit"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_7">
+         <item>
+          <widget class="QLabel" name="labeLiveUnit">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Sauce
+Units</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listLiveUnit">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_8">
+         <item>
+          <widget class="QLabel" name="labelCryUnit">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Crystals
+Units</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listCryUnit">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_9">
+         <item>
+          <widget class="QLabel" name="labelDistoUnit">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>Distolate
+Units</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listDistoUnit">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_10">
+         <item>
+          <widget class="QLabel" name="labelRsoptUnit">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+           <property name="text">
+            <string>RSO/PT
+Units</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QListWidget" name="listRsoptUnit">
+           <property name="font">
+            <font>
+             <family>URW Gothic L</family>
+             <pointsize>16</pointsize>
+            </font>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1017</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSave"/>
+    <addaction name="quit_button"/>
+   </widget>
+   <widget class="QMenu" name="menuSend_To">
+    <property name="title">
+     <string>Send To</string>
+    </property>
+    <addaction name="actionDistolate"/>
+    <addaction name="actionPackaging"/>
+    <addaction name="actionPOS"/>
+   </widget>
+   <widget class="QMenu" name="menuAdd">
+    <property name="title">
+     <string>Add/Remove</string>
+    </property>
+    <addaction name="actionAdd_New_Product"/>
+    <addaction name="actionRemove_Product"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuSend_To"/>
+   <addaction name="menuAdd"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="quit_button">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionDistolate">
+   <property name="text">
+    <string>Distillate</string>
+   </property>
+  </action>
+  <action name="actionPackaging">
+   <property name="text">
+    <string>Packaging</string>
+   </property>
+  </action>
+  <action name="actionBulk">
+   <property name="text">
+    <string>Bulk</string>
+   </property>
+  </action>
+  <action name="actionUnits">
+   <property name="text">
+    <string>Units</string>
+   </property>
+  </action>
+  <action name="actionPOS">
+   <property name="text">
+    <string>POS</string>
+   </property>
+  </action>
+  <action name="actionAdd_New_Product">
+   <property name="text">
+    <string>Add New Product</string>
+   </property>
+  </action>
+  <action name="actionRemove_Product">
+   <property name="text">
+    <string>Remove Selected</string>
+   </property>
+  </action>
+  <action name="actionCustomer_Relations">
+   <property name="text">
+    <string>Customer Relations</string>
+   </property>
+  </action>
+  <action name="actionIntake">
+   <property name="text">
+    <string>Intake</string>
+   </property>
+  </action>
+  <action name="actionLab">
+   <property name="text">
+    <string>Lab</string>
+   </property>
+  </action>
+  <action name="actionFinishing">
+   <property name="text">
+    <string>Finishing</string>
+   </property>
+  </action>
+  <action name="actionYield">
+   <property name="text">
+    <string>Yield</string>
+   </property>
+  </action>
+  <action name="actionPackaging_2">
+   <property name="text">
+    <string>Packaging</string>
+   </property>
+  </action>
+  <action name="actionDistillate">
+   <property name="text">
+    <string>Distillate</string>
+   </property>
+  </action>
+  <action name="actionPOS_2">
+   <property name="text">
+    <string>POS</string>
+   </property>
+  </action>
+  <action name="actionPage_Switch_On_Off">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Page Switch On/Off</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

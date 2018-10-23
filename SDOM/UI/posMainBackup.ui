@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>562</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listLive">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>90</y>
+      <width>171</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCry">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>40</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Crystals</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelRsopt">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>230</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>RSO/PT</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listCrum">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelCrum">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Crumble/Goo</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listCry">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>90</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listDisto">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>280</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listRsopt">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>280</y>
+      <width>161</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelDisto">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>230</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Distolate</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelLive">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Bookman L</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Live Resin</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushMultiple">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>111</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Select Multiple</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>562</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSell">
+    <property name="title">
+     <string>Sell</string>
+    </property>
+    <addaction name="actionSell_Selected"/>
+   </widget>
+   <widget class="QMenu" name="menuSend_To">
+    <property name="title">
+     <string>Send To</string>
+    </property>
+    <addaction name="actionProduct_Management"/>
+   </widget>
+   <widget class="QMenu" name="menuAccept_Payment">
+    <property name="title">
+     <string>Payments</string>
+    </property>
+    <addaction name="actionPending_Payments"/>
+    <addaction name="actionPayments_Recieved"/>
+   </widget>
+   <widget class="QMenu" name="menuPages">
+    <property name="title">
+     <string>Departments</string>
+    </property>
+    <addaction name="actionCustomer_Relations"/>
+    <addaction name="actionIntake"/>
+    <addaction name="actionLab"/>
+    <addaction name="actionFinishing"/>
+    <addaction name="actionYield"/>
+    <addaction name="actionProduct_Management_2"/>
+    <addaction name="actionPackaging"/>
+    <addaction name="actionDistillate"/>
+    <addaction name="separator"/>
+    <addaction name="actionPage_Switch_On_Off"/>
+   </widget>
+   <widget class="QMenu" name="menuQuit">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionExit"/>
+   </widget>
+   <addaction name="menuQuit"/>
+   <addaction name="menuSell"/>
+   <addaction name="menuSend_To"/>
+   <addaction name="menuAccept_Payment"/>
+   <addaction name="menuPages"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSell_Selected">
+   <property name="text">
+    <string>Sell Selected</string>
+   </property>
+  </action>
+  <action name="actionProduct_Management">
+   <property name="text">
+    <string>Product Management</string>
+   </property>
+  </action>
+  <action name="actionPending_Payments">
+   <property name="text">
+    <string>Pending Payments...</string>
+   </property>
+  </action>
+  <action name="actionPayments_Recieved">
+   <property name="text">
+    <string>Payments Recieved...</string>
+   </property>
+  </action>
+  <action name="actionCustomer_Relations">
+   <property name="text">
+    <string>Customer Relations</string>
+   </property>
+  </action>
+  <action name="actionIntake">
+   <property name="text">
+    <string>Intake</string>
+   </property>
+  </action>
+  <action name="actionLab">
+   <property name="text">
+    <string>Lab</string>
+   </property>
+  </action>
+  <action name="actionFinishing">
+   <property name="text">
+    <string>Finishing</string>
+   </property>
+  </action>
+  <action name="actionYield">
+   <property name="text">
+    <string>Yield</string>
+   </property>
+  </action>
+  <action name="actionProduct_Management_2">
+   <property name="text">
+    <string>Product Management</string>
+   </property>
+  </action>
+  <action name="actionPackaging">
+   <property name="text">
+    <string>Packaging</string>
+   </property>
+  </action>
+  <action name="actionDistillate">
+   <property name="text">
+    <string>Distillate</string>
+   </property>
+  </action>
+  <action name="actionPage_Switch_On_Off">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Page Switch On/Off</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

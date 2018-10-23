@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Intake</class>
+ <widget class="QMainWindow" name="Intake">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>251</width>
+    <height>309</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Intake</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QListWidget" name="listShipments">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>231</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Gothic L</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>251</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <zorder>frame</zorder>
+   <zorder>listShipments</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>251</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="quit_button"/>
+   </widget>
+   <widget class="QMenu" name="menuIntake">
+    <property name="title">
+     <string>Intake</string>
+    </property>
+    <addaction name="newBag"/>
+    <addaction name="actionPost_Test"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuIntake"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="newBag">
+   <property name="text">
+    <string>Initial Intake</string>
+   </property>
+  </action>
+  <action name="checkInventory">
+   <property name="text">
+    <string>Check Inventory</string>
+   </property>
+  </action>
+  <action name="quit_button">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionCustomer_Relations">
+   <property name="text">
+    <string>Customer Relations</string>
+   </property>
+  </action>
+  <action name="actionLab">
+   <property name="text">
+    <string>Lab</string>
+   </property>
+  </action>
+  <action name="actionFinishing">
+   <property name="text">
+    <string>Finishing</string>
+   </property>
+  </action>
+  <action name="actionYield">
+   <property name="text">
+    <string>Yield</string>
+   </property>
+  </action>
+  <action name="actionProduct_Management">
+   <property name="text">
+    <string>Product Management</string>
+   </property>
+  </action>
+  <action name="actionPackaging">
+   <property name="text">
+    <string>Packaging</string>
+   </property>
+  </action>
+  <action name="actionDistillate">
+   <property name="text">
+    <string>Distillate</string>
+   </property>
+  </action>
+  <action name="actionPOS">
+   <property name="text">
+    <string>POS</string>
+   </property>
+  </action>
+  <action name="actionPage_Switch_ON_OFF">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Page Switch ON/OFF</string>
+   </property>
+  </action>
+  <action name="actionPost_Test">
+   <property name="text">
+    <string>Post Test</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

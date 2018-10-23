@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>963</width>
+    <height>515</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listEverything">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>591</width>
+      <height>421</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>963</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSave"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuSort_By">
+    <property name="title">
+     <string>Sort By</string>
+    </property>
+    <widget class="QMenu" name="menuLocation">
+     <property name="title">
+      <string>Location</string>
+     </property>
+    </widget>
+    <addaction name="actionProduct"/>
+    <addaction name="actionTrim"/>
+    <addaction name="actionOwner"/>
+    <addaction name="menuLocation"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <widget class="QMenu" name="menuProduct">
+     <property name="title">
+      <string>Product</string>
+     </property>
+     <widget class="QMenu" name="menuBulk">
+      <property name="title">
+       <string>Bulk</string>
+      </property>
+      <addaction name="actionDistolate"/>
+      <addaction name="actionCrumbkle"/>
+      <addaction name="actionLive_Resin"/>
+     </widget>
+     <widget class="QMenu" name="menuUnit">
+      <property name="title">
+       <string>Unit</string>
+      </property>
+      <addaction name="actionCrumble"/>
+      <addaction name="actionLive_Resin_2"/>
+      <addaction name="actionDistolate_2"/>
+     </widget>
+     <addaction name="menuBulk"/>
+     <addaction name="menuUnit"/>
+    </widget>
+    <widget class="QMenu" name="menuTrim">
+     <property name="title">
+      <string>Trim</string>
+     </property>
+     <addaction name="actionIncoming_Shipments"/>
+     <addaction name="actionStored_2"/>
+     <addaction name="actionIn_Use"/>
+    </widget>
+    <addaction name="menuProduct"/>
+    <addaction name="menuTrim"/>
+    <addaction name="actionOwner_2"/>
+    <addaction name="actionLocation_2"/>
+    <addaction name="actionAll"/>
+   </widget>
+   <widget class="QMenu" name="menuAdd_To">
+    <property name="title">
+     <string>Add To</string>
+    </property>
+    <addaction name="actionAdd_Product"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuSort_By"/>
+   <addaction name="menuView"/>
+   <addaction name="menuAdd_To"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="actionTim">
+   <property name="text">
+    <string>Product</string>
+   </property>
+  </action>
+  <action name="actionBulk_Live_Resin">
+   <property name="text">
+    <string>Trim</string>
+   </property>
+  </action>
+  <action name="actionBulk_Distolate">
+   <property name="text">
+    <string>Owner</string>
+   </property>
+  </action>
+  <action name="actionUnit_Crumble">
+   <property name="text">
+    <string>Unit Crumble</string>
+   </property>
+  </action>
+  <action name="actionUnit_Live_Resin">
+   <property name="text">
+    <string>Unit Live Resin</string>
+   </property>
+  </action>
+  <action name="actionUnit_Distolate">
+   <property name="text">
+    <string>Unit Distolate</string>
+   </property>
+  </action>
+  <action name="actionIncoming">
+   <property name="text">
+    <string>Incoming Shipments</string>
+   </property>
+  </action>
+  <action name="actionStored">
+   <property name="text">
+    <string>Stored</string>
+   </property>
+  </action>
+  <action name="actionSuper_Dope">
+   <property name="text">
+    <string>Super Dope</string>
+   </property>
+  </action>
+  <action name="actionProduct">
+   <property name="text">
+    <string>Product</string>
+   </property>
+  </action>
+  <action name="actionTrim">
+   <property name="text">
+    <string>Trim</string>
+   </property>
+  </action>
+  <action name="actionOwner">
+   <property name="text">
+    <string>Owner</string>
+   </property>
+  </action>
+  <action name="actionOwner_2">
+   <property name="text">
+    <string>Owner</string>
+   </property>
+  </action>
+  <action name="actionDistolate">
+   <property name="text">
+    <string>Distolate</string>
+   </property>
+  </action>
+  <action name="actionCrumbkle">
+   <property name="text">
+    <string>Crumble</string>
+   </property>
+  </action>
+  <action name="actionLive_Resin">
+   <property name="text">
+    <string>Live Resin</string>
+   </property>
+  </action>
+  <action name="actionCrumble">
+   <property name="text">
+    <string>Crumble</string>
+   </property>
+  </action>
+  <action name="actionLive_Resin_2">
+   <property name="text">
+    <string>Live Resin</string>
+   </property>
+  </action>
+  <action name="actionDistolate_2">
+   <property name="text">
+    <string>Distolate</string>
+   </property>
+  </action>
+  <action name="actionIncoming_Shipments">
+   <property name="text">
+    <string>Incoming Shipments</string>
+   </property>
+  </action>
+  <action name="actionStored_2">
+   <property name="text">
+    <string>Stored</string>
+   </property>
+  </action>
+  <action name="actionIn_Use">
+   <property name="text">
+    <string>Processing</string>
+   </property>
+  </action>
+  <action name="actionAdd_Product">
+   <property name="text">
+    <string>Add Product</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save </string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionFreezer_1">
+   <property name="text">
+    <string>Freezer 1</string>
+   </property>
+  </action>
+  <action name="actionFreezer_2">
+   <property name="text">
+    <string>Freezer 2</string>
+   </property>
+  </action>
+  <action name="actionFreezer_3">
+   <property name="text">
+    <string>Freezer 3</string>
+   </property>
+  </action>
+  <action name="actionFreezer_4">
+   <property name="text">
+    <string>Freezer 4</string>
+   </property>
+  </action>
+  <action name="actionLocation_2">
+   <property name="text">
+    <string>Location</string>
+   </property>
+  </action>
+  <action name="actionAll">
+   <property name="text">
+    <string>All</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>868</width>
+    <height>565</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>851</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>URW Gothic L</family>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="labelToBe">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>To Be Finished</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="listToBe">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Crude</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="listCrudeFin"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="labelCrumFin">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Crumble </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="listCrumFin">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QLabel" name="labelCryFIn">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Crystal</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="listCry">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="labelLRFin">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Sauce</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QListWidget" name="listLRFin">
+         <property name="font">
+          <font>
+           <family>URW Gothic L</family>
+           <pointsize>16</pointsize>
+          </font>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>868</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="quit_button"/>
+   </widget>
+   <widget class="QMenu" name="menuGroup">
+    <property name="title">
+     <string>Group</string>
+    </property>
+    <addaction name="actionGroup_Selected"/>
+   </widget>
+   <widget class="QMenu" name="menuFinish">
+    <property name="title">
+     <string>Finish</string>
+    </property>
+    <widget class="QMenu" name="menuFinish_Selected">
+     <property name="title">
+      <string>Finish Selected</string>
+     </property>
+     <addaction name="actionCrumble_Goo"/>
+     <addaction name="actionLive_Resin"/>
+     <addaction name="actionCrystals"/>
+     <addaction name="actionCrude"/>
+    </widget>
+    <addaction name="menuFinish_Selected"/>
+   </widget>
+   <widget class="QMenu" name="menuClose">
+    <property name="title">
+     <string>Close</string>
+    </property>
+    <addaction name="actionHarvest_2"/>
+    <addaction name="actionClose_Selected"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuGroup"/>
+   <addaction name="menuFinish"/>
+   <addaction name="menuClose"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="quit_button">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionGroup_Selected">
+   <property name="text">
+    <string>Group Selected</string>
+   </property>
+  </action>
+  <action name="actionCrumble_Goo">
+   <property name="text">
+    <string>Crumble</string>
+   </property>
+  </action>
+  <action name="actionLive_Resin">
+   <property name="text">
+    <string>Live Resin</string>
+   </property>
+  </action>
+  <action name="actionCrystals">
+   <property name="text">
+    <string>Crystals</string>
+   </property>
+  </action>
+  <action name="actionTo_Be_Finished">
+   <property name="text">
+    <string>To Be Finished</string>
+   </property>
+  </action>
+  <action name="actionCrumble_Finsihing">
+   <property name="text">
+    <string>Crumble Finsihing</string>
+   </property>
+  </action>
+  <action name="actionLive_Resin_Finishing">
+   <property name="text">
+    <string>Live Resin Finishing</string>
+   </property>
+  </action>
+  <action name="actionCrystal_Finishing">
+   <property name="text">
+    <string>Crystal Finishing</string>
+   </property>
+  </action>
+  <action name="actionView_Selected">
+   <property name="text">
+    <string>View Selected</string>
+   </property>
+  </action>
+  <action name="actionHarvest">
+   <property name="text">
+    <string>Harvest</string>
+   </property>
+  </action>
+  <action name="actionCrum_Goo">
+   <property name="text">
+    <string>Crum/Goo</string>
+   </property>
+  </action>
+  <action name="actionLive_Resin_2">
+   <property name="text">
+    <string>Live Resin</string>
+   </property>
+  </action>
+  <action name="actionCrystals_2">
+   <property name="text">
+    <string>Crystals</string>
+   </property>
+  </action>
+  <action name="actionHarvest_2">
+   <property name="text">
+    <string>Harvest Crystals</string>
+   </property>
+  </action>
+  <action name="actionCustomer_Relations">
+   <property name="text">
+    <string>Customer Relations</string>
+   </property>
+  </action>
+  <action name="actionIntake">
+   <property name="text">
+    <string>Intake</string>
+   </property>
+  </action>
+  <action name="actionLab">
+   <property name="text">
+    <string>Lab</string>
+   </property>
+  </action>
+  <action name="actionYield">
+   <property name="text">
+    <string>Yield</string>
+   </property>
+  </action>
+  <action name="actionProduct_Management">
+   <property name="text">
+    <string>Product Management</string>
+   </property>
+  </action>
+  <action name="actionPackaging">
+   <property name="text">
+    <string>Packaging</string>
+   </property>
+  </action>
+  <action name="actionDistillate">
+   <property name="text">
+    <string>Distillate</string>
+   </property>
+  </action>
+  <action name="actionPOS">
+   <property name="text">
+    <string>POS</string>
+   </property>
+  </action>
+  <action name="actionPage_Switch_On_Off">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Page Switch On/Off</string>
+   </property>
+  </action>
+  <action name="actionClose_Selected">
+   <property name="text">
+    <string>Close Selected</string>
+   </property>
+  </action>
+  <action name="actionCrude">
+   <property name="text">
+    <string>Crude</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
